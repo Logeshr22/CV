@@ -1,6 +1,10 @@
 <title>Sign Up</title>
+<link rel="stylesheet" href="css/Styles.css">
+<link href='https://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet'>
 <center>
-  <h1>Job Application</h1>
+  <hr size="3" noshade>
+  <h1>sign up</h1>
+  <hr size="3" noshade>
   <form class="" action="mailto:logesh.r22@gmail.com" method="post" enctype="text/plain">
 
   <table cellspacing="50">
@@ -20,8 +24,13 @@
     </tr>
 
     <tr>
-      <td><label>Gender :</label> </td>
-      <td>  <label>Male </label><input type="radio" name="" value=""> <label>Female </label><input type="radio" name="" value=""></td>
+      <td><label>Gender :</label></td>
+      <td><input type="radio" id="Male" name="Gender" value="Male">
+      <label for="Male">Male</label></td>
+      <td><input type="radio" id="Female" name="Gender" value="Female">
+      <label for="Female">Female</label></td>
+      <td><input type="radio" id="Other" name="Gender" value="Other">
+      <label for="Other">Other</label></td>
     </tr>
 
     <tr>
@@ -30,13 +39,17 @@
     </tr>
     <tr>
       <td><label>Your message :</label></td>
-      <td><textarea name="Your Message" rows="8" cols="80"></textarea>
+      <td><textarea name="Your Message" rows="8" cols="50"></textarea>
     </tr>
 
   </table>
+
   <center>
     <input type="submit" name="">
     </center>
   </form>
+  <br>
+  <br>
+  <hr size="3" noshade>
 
   </center>
