@@ -13,7 +13,7 @@ hr{
 }
 h1{
   color: white;
-  font-family: "Cinzel";
+  font-family: "Poiret One";
   text-align: center;
 }
 h2{
@@ -23,26 +23,26 @@ h2{
 }
 ul{
   color:white;
-  font-family:Cinzel;
+  font-family:"Poiret One";
   text-align: center;
   list-style-position: inside;
 }
 ol{
   color:white;
-  font-family:Cinzel;
+  font-family:"Poiret One";
   text-align: center;
   list-style-position: inside;
 }
 table{
   color:white;
-  font-family:Cinzel;
+  font-family:"Poiret One";
   text-align: left;
   list-style-position:inside;
 
 }
 a{
   color:white;
-  font-family:Cinzel;
+  font-family:"Poiret One";
   text-align: center;
 }
 
